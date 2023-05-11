@@ -112,7 +112,6 @@ ul {
 
 .header_icons {
   display: flex;
-  /* justify-content: center; */
   place-items: center;
   gap: 2%;
   margin: 2% 0%;
@@ -120,13 +119,13 @@ ul {
 
 .link_icons {
   display: flex;
-  gap: 5%;
+  gap: 20%;
+  padding-top: 10px;
 }
-/* 
-.doc_icons img {
-  width: 40px;
-  height: 40px;
-} */
+
+.resume {
+  filter: invert(100%);
+}
 
 .section_button {
   background: #121212;
@@ -235,6 +234,7 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
+
   .timeline {
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
@@ -347,13 +347,29 @@ ul {
     flex-direction: column;
     place-items: center;
   }
+
   .nav-title {
     padding: 0;
   }
-  
+
   .nav-link {
     display: flex;
     flex-direction: column;
+  }
+  .about h2, .intro {
+    text-align: center;
+  }
+
+  .header_icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link_icons {
+    width: 100%;
+    padding-top: 15%;
+    padding-left: 40%;
+    gap: 10%
   }
 
   .contacts-body {

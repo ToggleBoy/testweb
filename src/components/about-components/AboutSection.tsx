@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const AboutHeader = () => {
   return (
     <>
@@ -12,18 +14,18 @@ export const AboutHeader = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            github{/* <img src={git} alt="Git HUB" /> */}
+            <Image src="/git.png" alt="github" width={40} height={40}/>
           </a>
           <a
             href="https://drive.google.com/file/d/1Tse-K_PEZnbQ5mcYrWV2FcX_ZUDQwLdZ/view?usp=share_link"
             target="_blank"
             rel="noopener noreferrer"
           >
-            resume{/* <img src={resume} alt="Resume" /> */}
+            <Image src="/resume.png" alt="resume" width={40} height={40} className="resume"/>
           </a>
         </div>
       </div>
-      <p>
+      <p className="intro">
         Hi, This is Radhakrishnan a Curious Lad for Tamilnadu - India. I can
         build complete End - End web application using React.js for front - end,
         Node.js for back - end, PostgreSql for database and so on...
