@@ -28,11 +28,9 @@ h3::after {
   margin: 8px 20px;
 }
 
-
 footer {
   text-align: center;
 }
-
 
 /* Navbar */
 
@@ -282,8 +280,6 @@ ul {
   text-align: left;
 }
 
-
-
 .contacts-icons img {
   padding: 0% 2%;
   filter: invert();
@@ -345,7 +341,21 @@ ul {
 
 /* media query */
 
-@media only screen and (max-width: 600px) and (min-width: 400px)  {
+@media only screen and (max-width: 600px) and (min-width: 350px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+  .nav-title {
+    padding: 0;
+  }
+  
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+  }
+
   .contacts-body {
     display: block;
   }
