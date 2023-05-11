@@ -195,7 +195,7 @@ ul {
   align-items: center;
   justify-content: center;
   min-height: 100%;
-  padding: 100px 0;
+  padding: 5% 0%;
 }
 
 .design {
@@ -205,7 +205,7 @@ ul {
 }
 
 .timeline {
-  width: 1000%;
+  width: 100%;
   height: auto;
   max-width: 800px;
   margin: 0 auto;
@@ -282,6 +282,8 @@ ul {
   text-align: left;
 }
 
+
+
 .contacts-icons img {
   padding: 0% 2%;
   filter: invert();
@@ -339,4 +341,18 @@ ul {
 .viewproject-button:hover {
   background-color: #0aee79;
   color: #121212;
+}
+
+/* media query */
+
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
+  .contacts-body {
+    display: block;
+  }
+  .form-section {
+    padding: 10% 0%;
+  }
+  .timeline-content p {
+    width: fit-content;
+  }
 }

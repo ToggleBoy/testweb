@@ -50,7 +50,7 @@ const About = () => {
             <h3>Experience</h3>
             <Experience_section />
           </div>
-          <div>
+          <div className="Education">
             <h3>Education Qualification</h3>
             <EducationQualification />
           </div>
