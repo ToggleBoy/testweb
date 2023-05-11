@@ -1,14 +1,14 @@
-import FormSection from "@/components/contacts-components/FormSection";
+import { Form_section, Social_Icons } from "@/components/contacts-components/FormSection";
 
 const ContactMe = () => {
   return (
     <div className="contacts">
       <div className="contacts-header">
         <h2>Contact Me</h2>
-        <p>Reach me Out through Social Media</p>
         <p>Email:- radhakrisnan3128@gmail.com</p>
         <p>Ph. no.:- +91 866 735 1498</p>
-        {/* <Social_Icons /> */}
+        <p>Reach me Out through Social Media</p>
+        <Social_Icons />
       </div>
 
       <div className="contacts-body">
@@ -24,7 +24,7 @@ const ContactMe = () => {
         </div>
         <div className="form-section">
           <h3>Form</h3>
-          <FormSection />
+          <Form_section />
         </div>
       </div>
     </div>

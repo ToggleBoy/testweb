@@ -1,6 +1,7 @@
+import Image from "next/image";
 import "./FormSection.css";
 
-function Form_section() {
+export const Form_section = () => {
   return (
     <div className="box">
       <form>
@@ -23,4 +24,13 @@ function Form_section() {
   );
 }
 
-export default Form_section;
+export const Social_Icons = () => {
+  return (
+    <div className="social-icons">
+      <Image src="/facebook.png" alt="facebook icon" width={50} height={45}/>
+      <Image src="/instagram.png" alt="instagram icon" width={50} height={45}/>
+      <Image src="/linkedin.png" alt="linedin icon" width={50} height={45}/>
+      <Image src="/twitter.png" alt="twitter icon" width={50} height={45}/>
+    </div>
+  )
+}

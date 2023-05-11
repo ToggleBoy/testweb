@@ -302,6 +302,13 @@ ul {
   flex: 1 1 60%;
 }
 
+.social-icons {
+  filter: invert(100%);
+  padding: 3% 0%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 /* Project */
 
 .project {
@@ -374,9 +381,17 @@ ul {
 
   .contacts-body {
     display: block;
+    padding: 0;
   }
+
+  .loaction {
+    width: max-content;
+  }
+
+
   .form-section {
     padding: 10% 0%;
+
   }
   .timeline-content p {
     width: fit-content;
