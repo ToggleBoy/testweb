@@ -3,7 +3,7 @@ import Image from "next/image";
 export const AboutHeader = () => {
   return (
     <>
-      <h2>About Me</h2>
+      <h2>Resume</h2>
       <div className="header_icons">
         <div>
           <button className="section_button">Software Developer</button>
@@ -66,7 +66,7 @@ export const EducationQualification = () => {
           <div className="timeline-circle"></div>
         </div>
         <div className="timeline-component timeline-content">
-          <h4>Under Grad. (B.E) </h4>
+          <h4>Under Graduation (B.E) </h4>
           <p>Major: Electrical & ELectronics Engineering</p>
           <p>Sri Venkateswara College of Engineering</p>
           <p>Year of Passing : 2020</p>

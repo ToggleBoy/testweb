@@ -95,7 +95,9 @@ ul {
 
 /* About */
 
-.about {
+/* Career */
+
+.career {
   text-align: left;
   width: auto;
   height: 100%;
@@ -105,7 +107,7 @@ ul {
   padding: 5%;
 }
 
-.about-header {
+.career-header {
   padding: 0% 0% 5%;
   /* text-align: center; */
 }

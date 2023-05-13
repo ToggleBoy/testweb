@@ -1,4 +1,4 @@
-import { Form_section, Social_Icons } from "@/components/contacts-components/FormSection";
+import { Form_section, Social_Icons } from "@/components/contacts-components/ContactSection";
 
 const ContactMe = () => {
   return (
