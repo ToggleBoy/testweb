@@ -397,4 +397,8 @@ ul {
   .timeline-content p {
     width: fit-content;
   }
+
+  .social-icons {
+    scale: 0.75;
+  }
 }
