@@ -408,7 +408,7 @@ ul {
     flex-direction: column;
   }
 
-  .intro-para {
+  .intro-para, .about h2 {
     text-align: center;
   }
 
