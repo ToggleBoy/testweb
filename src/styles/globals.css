@@ -67,10 +67,12 @@ ul {
 
 /* Home */
 
-/* .Home {
-} */
+.ScrollBar {
+  width: 43vw;
+  text-align: right;
+}
 
-/* .auto-scroll {
+.auto-scroll {
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
@@ -91,9 +93,43 @@ ul {
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
   }
-} */
+}
 
 /* About */
+
+.about {
+  width: auto;
+  height: 100%;
+  background: #121212;
+  color: whitesmoke;
+  line-height: 200%;
+  padding: 5%;
+}
+
+.about-intro {
+  display: flex;
+  margin: 5% 0% 10%;
+}
+
+.intro-img{
+  flex: 1 1 30%;
+  text-align: center;
+}
+
+.intro-para {
+  flex: 1 1 70%;
+}
+
+.interest-list {
+  background: #121212;
+  -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  color: whitesmoke;
+  padding: 1.5% 5%;
+  font-size: 1.05rem;
+  margin: 1%;
+  border: 3px solid rgba(245, 245, 245, 0.329);
+}
 
 /* Career */
 
@@ -309,6 +345,7 @@ ul {
   padding: 3% 0%;
   display: flex;
   justify-content: space-evenly;
+  scale: 0.85;
 }
 
 /* Project */
@@ -365,8 +402,22 @@ ul {
     display: flex;
     flex-direction: column;
   }
-  .about h2, .intro {
+
+  .about-intro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-para {
     text-align: center;
+  }
+
+  .career h2,h3, .intro {
+    text-align: center;
+  }
+
+  .Skill , .Experience, .Education {
+    margin: 10% 0%;
   }
 
   .header_icons {

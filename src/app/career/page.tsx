@@ -6,7 +6,7 @@ import {
   EducationQualification,
 } from "@/components/career-components/CareerSection";
 
-const About = () => {
+const Career = () => {
   const techSkill: string[] = [
     "React.js",
     "Next.js",
@@ -31,7 +31,7 @@ const About = () => {
       <div className="career-header">
         <AboutHeader />
       </div>
-      <div className="about-body">
+      <div className="career-body">
         <div className="contents">
           <div className="Skill">
             <h3>Skills</h3>
@@ -60,4 +60,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Career;
