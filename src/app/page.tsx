@@ -18,12 +18,12 @@ const Home= () => {
   return (
     <div className="home">
       <div className="home-nav">
-        <div className="hnav-title">
+        <div className="navtitle">
           <Link href={"/"}>
             <Image src="/logo.png" alt="logo" width={100} height={75} priority={true} />
           </Link>
         </div>
-        <div className={`hnav-link ${isMobileMenuOpen ? 'active' : ''}`}>
+        <div className="navlink">
           <Link href="/">
             <p>Home</p>
           </Link>
@@ -40,11 +40,7 @@ const Home= () => {
             <p>Contact Me</p>
           </Link>
         </div>
-        <button className="hamburger" onClick={toggleMobileMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+        <input className="hamburger" onClick={toggleMobileMenu} type='button' value="Menu"/>
       </div>
       {isMobileMenuOpen && (
         <div className="overlay" onClick={closeMobileMenu}>
