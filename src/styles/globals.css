@@ -90,11 +90,6 @@ ul {
 }
 
 @media (max-width: 768px) {
-
-  body {
-    padding: 0;
-  }
-
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -541,6 +536,14 @@ hr {
 /* media query */
 
 @media only screen and (max-width: 600px) and (min-width: 350px) {
+  
+  body {
+    padding: 0;
+  }
+
+  .career ,.about ,.contacts {
+    padding: 10%;
+  }
 
   .home {
     height: 97vh;
@@ -600,10 +603,7 @@ hr {
   }
 
   .link_icons {
-    width: 100%;
-    padding-top: 15%;
-    padding-left: 40%;
-    gap: 10%;
+    display: flex;
   }
 
   .contacts-body {

@@ -9,20 +9,30 @@ export const AboutHeader = () => {
           <button className="section_button">Software Developer</button>
         </div>
         <div className="link_icons">
-          <a
-            href="https://www.github.com/toggleboy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src="/git.png" alt="github" width={40} height={40}/>
-          </a>
-          <a
-            href="https://drive.google.com/file/d/1Tse-K_PEZnbQ5mcYrWV2FcX_ZUDQwLdZ/view?usp=share_link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image src="/resume.png" alt="resume" width={40} height={40} className="resume"/>
-          </a>
+          <div>
+            <a
+              href="https://www.github.com/toggleboy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src="/git.png" alt="github" width={40} height={40} />
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://drive.google.com/file/d/1Tse-K_PEZnbQ5mcYrWV2FcX_ZUDQwLdZ/view?usp=share_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/resume.png"
+                alt="resume"
+                width={40}
+                height={40}
+                className="resume"
+              />
+            </a>
+          </div>
         </div>
       </div>
       <p className="intro">
