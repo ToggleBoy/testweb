@@ -9,6 +9,9 @@ const About = () => {
     "Programming",
     "Music",
     "Movies",
+    "Novel Reading",
+    "Tv Series",
+    "Trekking"
   ];
 
   return (

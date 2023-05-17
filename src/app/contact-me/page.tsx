@@ -23,7 +23,7 @@ const ContactMe = () => {
           </div>
         </div>
         <div className="form-section">
-          <h3>Form</h3>
+          <h3>Feedback</h3>
           <Form_section />
         </div>
       </div>

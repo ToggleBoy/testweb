@@ -40,7 +40,7 @@ const Home= () => {
             <p>Contact Me</p>
           </Link>
         </div>
-        <input className="hamburger" onClick={toggleMobileMenu} type='button' value="Menu"/>
+        <input className="hamburger" onClick={toggleMobileMenu} type='button' value="| | |"/>
       </div>
       {isMobileMenuOpen && (
         <div className="overlay" onClick={closeMobileMenu}>

@@ -87,7 +87,7 @@ ul {
 /* Home */
 
 .home {
-  position: relative;
+  /* position: relative; */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -138,10 +138,20 @@ ul {
   background-color: #121212;
   color: red;
   border: none;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 @media (max-width: 768px) {
+  .home-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navtitle {
+    text-align: center;
+  }
+
   .navlink {
     display: none;
   }
@@ -153,6 +163,12 @@ ul {
     font-size: 1.05rem;
     margin-bottom: 5%;
     border: none;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    z-index: 1;
+    transform: rotate(90deg);
+    font-size: 1.5em;
   }
 
   .navlink.active {
@@ -494,6 +510,15 @@ ul {
   .intro-para,
   .about h2 {
     text-align: center;
+  }
+  
+  .interest-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .interest-list {
+    margin: 5% 10%;
   }
 
   .career h2,
