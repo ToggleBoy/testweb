@@ -11,17 +11,17 @@ body::-webkit-scrollbar {
 
 /* Track */
 body::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 body::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
 /* Handle on hover */
 body::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 
 h1,
@@ -73,6 +73,7 @@ a {
 ul {
   list-style: none;
 }
+
 .navigation-link {
   display: flex;
   flex: 1;
@@ -80,8 +81,43 @@ ul {
   justify-content: right;
 }
 
- .navigation-link p {
+.navigation-link p {
   width: max-content;
+}
+
+.hamburger-navbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation-title {
+    padding: 0;
+  }
+
+  .navigation-link {
+    display: none;
+  }
+
+  .hamburger-navbar {
+    display: block;
+    transform: rotate(90deg);
+    background: #121212;
+    color: #0aee79;
+    font-size: 1.05rem;
+    margin-bottom: 5%;
+    border: none;
+    position: absolute;
+    top: 3.5%;
+    right: 12%;
+    z-index: 1;
+    transform: rotate(90deg);
+    font-size: 1.5em;
+  }
 }
 
 /* Home */
@@ -152,7 +188,7 @@ hr {
   top: 3%;
   right: 15%;
   background-color: #121212;
-  color: red;
+  color: #0aee79;
   border: none;
   font-size: 1.2em;
 }
@@ -205,10 +241,10 @@ hr {
     overflow: hidden;
   }
 
-  .mobile-menu p , a{
+  .mobile-menu p,
+  a {
     width: fit-content;
   }
-
 }
 
 /* About */
@@ -503,11 +539,6 @@ hr {
 /* media query */
 
 @media only screen and (max-width: 600px) and (min-width: 350px) {
-  
-  body {
-    /* padding: 0; */
-  }
-
   .home {
     height: 97vh;
   }
@@ -517,21 +548,6 @@ hr {
     width: 80%;
     opacity: 0.3;
     margin-bottom: 10%;
-  }
-  
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-  }
-
-  .navigation-title {
-    padding: 0;
-  }
-
-  .navigation-link {
-    display: flex;
-    flex-direction: column;
   }
 
   .homepage-icons {
@@ -551,7 +567,7 @@ hr {
   .about h2 {
     text-align: center;
   }
-  
+
   .interest-section {
     display: flex;
     flex-direction: column;
