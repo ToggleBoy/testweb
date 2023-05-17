@@ -504,9 +504,10 @@ hr {
   height: auto;
   line-height: 40px;
   text-align: center;
+  padding: 5%;
 }
 .project-header {
-  padding: 5%;
+  padding-bottom: 5%;
 }
 
 .description {
@@ -541,7 +542,7 @@ hr {
     padding: 0;
   }
 
-  .career ,.about ,.contacts {
+  .career ,.about ,.contacts, .project {
     padding: 10%;
   }
 
