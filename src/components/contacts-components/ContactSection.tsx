@@ -26,7 +26,7 @@ export const Form_section = () => {
 
 export const Social_Icons = () => {
   return (
-    <div className="social-icons">
+    <div className="social-icons" id="homepage-icons">
       <a
         href="https://www.linkedin.com/in/radhakrishnan-jayaraman/"
         target="_blank"

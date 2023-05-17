@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { HomePage_Icons } from '@/components/homepage components/HomePageComponents';
 
 const Home= () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -22,6 +23,8 @@ const Home= () => {
           <Link href={"/"}>
             <Image src="/logo.png" alt="logo" width={100} height={75} priority={true} />
           </Link>
+          <hr />
+          <HomePage_Icons />
         </div>
         <div className="navlink">
           <Link href="/">
