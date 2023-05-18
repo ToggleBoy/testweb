@@ -581,13 +581,17 @@ hr {
     text-align: center;
   }
 
+  .about-body h3 {
+    text-align: left;
+  }
+
   .interest-section {
     display: flex;
     flex-direction: column;
   }
 
   .interest-list {
-    margin: 5% 10%;
+    margin: 5% 13.5%;
   }
 
   .career h2 {

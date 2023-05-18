@@ -52,7 +52,7 @@ const About = () => {
       </div>
       <div className="about-body">
         <div>
-          <h2>Interests & Hobbies</h2>
+          <h3>Interests & Hobbies</h3>
           <div className="interest-section">
             {interest.map((list, index) => (
               <InterestList data={list} interestIcon={interestIcon[index]} key={index} />
@@ -60,7 +60,7 @@ const About = () => {
           </div>
         </div>
         <div>
-          <h2>TimeLine / Carousel</h2>
+          <h3>TimeLine / Carousel</h3>
           <p>Born to Till now</p>
         </div>
       </div>
