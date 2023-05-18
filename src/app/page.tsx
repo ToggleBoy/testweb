@@ -28,22 +28,22 @@ const Home= () => {
         </div>
         <div className="navlink">
           <Link href="/">
-            <p>Home</p>
+            Home
           </Link>
           <Link href="/about">
-            <p>About</p>
+            About
           </Link>
           <Link href="/career">
-            <p>Career</p>
+            Career
           </Link>
           <Link href="/projects">
-            <p>Projects</p>
+            Projects
           </Link>
           <Link href="/contact-me">
-            <p>Contact Me</p>
+            Contact Me
           </Link>
         </div>
-        <input className="hamburger" onClick={toggleMobileMenu} type='button' value="| | |"/>
+        <input className="hamburger" onClick={toggleMobileMenu} type='button' value="| || |"/>
       </div>
       {isMobileMenuOpen && (
         <div className="overlay" onClick={closeMobileMenu}>
@@ -52,19 +52,19 @@ const Home= () => {
               X
             </button>
             <Link href="/">
-              <p>Home</p>
+              Home
             </Link>
             <Link href="/about">
-              <p>About</p>
+              About
             </Link>
             <Link href="/career">
-              <p>Career</p>
+              Career
             </Link>
             <Link href="/projects">
-              <p>Projects</p>
+              Projects
             </Link>
             <Link href="/contact-me">
-              <p>Contact Me</p>
+              Contact Me
             </Link>
           </div>
         </div>

@@ -42,10 +42,13 @@ const About = () => {
           <div className="intro-para">
             <h4>Bio</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
-              voluptatibus numquam debitis eos earum quaerat eius excepturi ex
-              quisquam perspiciatis alias quidem et explicabo, voluptatum veniam
-              impedit voluptates sint? Placeat.
+            { ` Meet Radhakrishnan, a vibrant soul from Ranipet, Tamil Nadu. With
+              a passion for movies, programming, and sports (cricket and
+              badminton), he blends his diverse interests into a fusion of
+              creativity. Exploring the magic of cinema, he delves into various
+              genres, dissecting narratives and sparking engaging conversations.
+              As a programming virtuoso, he thrives on crafting innovative
+              solutions to real-world challenges.`}
             </p>
           </div>
         </div>
@@ -55,13 +58,16 @@ const About = () => {
           <h3>Interests & Hobbies</h3>
           <div className="interest-section">
             {interest.map((list, index) => (
-              <InterestList data={list} interestIcon={interestIcon[index]} key={index} />
+              <InterestList
+                data={list}
+                interestIcon={interestIcon[index]}
+                key={index}
+              />
             ))}
           </div>
         </div>
         <div>
-          <h3>TimeLine / Carousel</h3>
-          <p>Born to Till now</p>
+          <h3>Timeline</h3>
         </div>
       </div>
     </div>
