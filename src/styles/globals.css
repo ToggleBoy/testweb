@@ -278,12 +278,17 @@ hr {
   -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
   box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
   color: whitesmoke;
-  padding: 1.5% 5%;
+  width: 225px;
   font-size: 1.05rem;
   margin: 1%;
   border: 3px solid rgba(245, 245, 245, 0.329);
 }
 
+.sub-interest {
+  display: flex;
+  justify-content: space-around;
+  padding: 8% 0%;
+}
 /* Career */
 
 .career {
