@@ -33,7 +33,7 @@ const Home = () => {
           Home
         </Link>
         <Link href="/about">
-          bout
+          About
         </Link>
         <Link href="/career">
           Career
