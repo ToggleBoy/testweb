@@ -19,9 +19,9 @@ const Home = () => {
 
   return (
     <motion.div
-      initial={{ x: 200 }}
-      animate={{ x: 0 }}
-      exit={{ x: -200 }}
+      initial={{ y: 200 }}
+      animate={{ y: 0 }}
+      exit={{ y: -200 }}
       transition={{ duration: 0.75 }}
     >
       <div className="home">
