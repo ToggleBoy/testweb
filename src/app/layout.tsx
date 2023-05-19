@@ -1,4 +1,3 @@
-"use client";
 import "../styles/globals.css";
 import favico from "../../public/favicon.ico";
 import { AnimatePresence } from "framer-motion";
