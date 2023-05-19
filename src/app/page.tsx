@@ -23,8 +23,6 @@ const Home= () => {
           <Link href={"/"}>
             <Image src="/logo.png" alt="logo" width={100} height={75} priority={true} />
           </Link>
-          <hr />
-          <HomePage_Icons />
         </div>
         <div className="navlink">
           <Link href="/">
@@ -43,8 +41,9 @@ const Home= () => {
             Contact Me
           </Link>
         </div>
-        <input className="hamburger" onClick={toggleMobileMenu} type='button' value="| || |"/>
+        <input className="hamburger" onClick={toggleMobileMenu} type='button' value="|||"/>
       </div>
+      <HomePage_Icons />
       {isMobileMenuOpen && (
         <div className="overlay" onClick={closeMobileMenu}>
           <div className="mobile-menu">

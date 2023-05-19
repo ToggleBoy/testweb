@@ -49,7 +49,7 @@ const Home = () => {
         className="hamburger-navbar"
         onClick={toggleMobileMenu}
         type="button"
-        value="| || |"
+        value="|||"
       />
       {isMobileMenuOpen && (
         <div className="overlay" onClick={closeMobileMenu}>

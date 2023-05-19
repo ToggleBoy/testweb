@@ -113,7 +113,7 @@ ul {
     margin-bottom: 5%;
     border: none;
     position: absolute;
-    top: 3%;
+    top: 2.5%;
     right: 5%;
     z-index: 1;
     transform: rotate(90deg);
@@ -129,18 +129,20 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .homepage-icons {
   filter: invert(100%);
   padding: 0% 0%;
-  width: fit-content;
+  width: 100%;
   display: flex;
-  scale: 0.85;
 }
 
 .homepage-icons a {
-  margin: 0% 11%;
+  margin: 0% 0%;
+  transform: scale(0.85);
+  padding: 0 0 0 3%;
 }
 
 .home-nav {
@@ -195,6 +197,12 @@ hr {
 }
 
 @media (max-width: 768px) {
+
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+
   .home-nav {
     display: flex;
     justify-content: space-between;
@@ -217,7 +225,7 @@ hr {
     margin-bottom: 5%;
     border: none;
     position: absolute;
-    top: 5%;
+    top: 2.5%;
     right: 5%;
     z-index: 1;
     transform: rotate(90deg);
@@ -244,7 +252,7 @@ hr {
 
   .mobile-menu a {
     width: fit-content;
-    padding: 5% 0%;
+    padding: 5% 2%;
   }
 }
 
@@ -502,7 +510,7 @@ hr {
   padding: 3% 0%;
   display: flex;
   justify-content: space-evenly;
-  scale: 0.85;
+  transform: scale(0.85);
 }
 
 /* Project */
@@ -559,19 +567,20 @@ hr {
     height: 97vh;
   }
 
-  hr {
+  /* hr {
     display: block;
     width: 80%;
     opacity: 0.3;
     margin-bottom: 10%;
-  }
+  } */
 
   .homepage-icons {
-    scale: 0.75;
-  }
-
-  .homepage-icons a {
-    margin: 0% 12%;
+    transform: scale(0.85);
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 5%;
+    border-top: 1px solid black;
+    padding: 5% 0 0;
   }
 
   .about-intro {
@@ -639,6 +648,6 @@ hr {
   }
 
   .social-icons {
-    scale: 0.75;
+    transform: scale(0.85);
   }
 }
