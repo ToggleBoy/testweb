@@ -124,7 +124,6 @@ ul {
 /* Home */
 
 .home {
-  /* position: relative; */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -156,10 +155,6 @@ ul {
 .navtitle {
   flex: 1 1 50%;
   flex-shrink: 0;
-}
-
-hr {
-  display: none;
 }
 
 .navlink {
@@ -567,20 +562,13 @@ hr {
     height: 97vh;
   }
 
-  /* hr {
-    display: block;
-    width: 80%;
-    opacity: 0.3;
-    margin-bottom: 10%;
-  } */
-
   .homepage-icons {
     transform: scale(0.85);
     justify-content: space-evenly;
     position: absolute;
-    bottom: 5%;
+    bottom: 0%;
     border-top: 1px solid black;
-    padding: 5% 0 0;
+    padding: 5% 0;
   }
 
   .about-intro {
