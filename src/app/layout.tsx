@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 import favico from "../../public/favicon.ico";
-import { AnimatePresence } from "framer-motion";
 
 export const metadata = {
   title: "Radhakrishnan",
@@ -15,10 +14,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="shortcut icon" href={favico.src} type="image/x-icon" />
+        <link rel="shortcut icon" href={favico.src} type="image/x-icon"/>
       </head>
       <body>
-        <AnimatePresence initial={false}>{children}</AnimatePresence>
+        {children}
       </body>
     </html>
   );
