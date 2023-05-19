@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import "./ContactSection.css";
-import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
+// import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
 
 export const Form_section = () => {
   return (
@@ -62,27 +62,27 @@ export const Social_Icons = () => {
   );
 };
 
-const containerStyle = {
-  width: "auto",
-  height: "400px",
-};
+// const containerStyle = {
+//   width: "auto",
+//   height: "400px",
+// };
 
-const center = {
-  lat: 12.979227,
-  lng: 79.275097,
-};
+// const center = {
+//   lat: 12.979227,
+//   lng: 79.275097,
+// };
 
-export const Maps = () => {
-  const { isLoaded } = useJsApiLoader({
-    id: "google-map-script",
-    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API!,
-  });
+// export const Maps = () => {
+//   const { isLoaded } = useJsApiLoader({
+//     id: "google-map-script",
+//     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API!,
+//   });
 
-  return isLoaded ? (
-    <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
-      <Marker position={center} />
-    </GoogleMap>
-  ) : (
-    <></>
-  );
-};
+//   return isLoaded ? (
+//     <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
+//       <Marker position={center} />
+//     </GoogleMap>
+//   ) : (
+//     <></>
+//   );
+// };
