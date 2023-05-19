@@ -1,4 +1,9 @@
-import { Form_section, Social_Icons } from "@/components/contacts-components/ContactSection";
+
+import {
+  Form_section,
+  Maps,
+  Social_Icons,
+} from "@/components/contacts-components/ContactSection";
 
 const ContactMe = () => {
   return (
@@ -21,6 +26,9 @@ const ContactMe = () => {
             <p>TamilNadu - India.</p>
             <p>Postal Code :- 632 515</p>
           </div>
+          <div>
+            <Maps />
+          </div>
         </div>
         <div className="form-section">
           <h3>Feedback</h3>
@@ -32,3 +40,4 @@ const ContactMe = () => {
 };
 
 export default ContactMe;
+

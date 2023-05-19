@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import "./ContactSection.css";
+import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
 
 export const Form_section = () => {
   return (
@@ -14,7 +16,7 @@ export const Form_section = () => {
           <label>Full Name</label>
         </div>
         <div className="input-container">
-          <textarea className="text-area" placeholder="Comment" />
+          <textarea className="text-area" placeholder="Suggestions" />
         </div>
         <button type="button" className="button tooltip">
           submit <span className="tooltiptext">Under Progression</span>
@@ -57,5 +59,30 @@ export const Social_Icons = () => {
         <Image src="/twitter.png" alt="twitter icon" width={50} height={45} />
       </a>
     </div>
+  );
+};
+
+const containerStyle = {
+  width: "auto",
+  height: "400px",
+};
+
+const center = {
+  lat: 12.979227,
+  lng: 79.275097,
+};
+
+export const Maps = () => {
+  const { isLoaded } = useJsApiLoader({
+    id: "google-map-script",
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API!,
+  });
+
+  return isLoaded ? (
+    <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={10}>
+      <Marker position={center} />
+    </GoogleMap>
+  ) : (
+    <></>
   );
 };
