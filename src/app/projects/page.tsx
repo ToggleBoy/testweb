@@ -12,7 +12,7 @@ const Projects = () => {
       <div className="project-body">
         <div className="project-left">
           <div className="description">
-            <h2>Password Manager</h2>
+            <h3>Password Manager</h3>
             <p>
               {`Using Pure Python Programming Language with tkinter GUI. This
               project has been done. The Data's are been stored in json file
@@ -34,7 +34,7 @@ const Projects = () => {
             {/* <img src={Wo_png} alt="projectimage" width={200} height={200} /> */}
           </div>
           <div className="description">
-            <h2>WiggyOmato</h2>
+            <h3>WiggyOmato</h3>
             <p>
               {`It's a Basic food Ordering WebApp with responsive cart
               button/icon. This WebApp is developed in React.js using hooks

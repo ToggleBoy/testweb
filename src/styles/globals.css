@@ -40,11 +40,11 @@ h6 {
 h2::after,
 h3::after {
   content: "";
-  width: 120px;
+  width: 100px;
   height: 1px;
   display: inline-block;
   background: #0aee79;
-  margin: 8px 20px;
+  margin: 7px 20px;
 }
 
 footer {
@@ -554,6 +554,19 @@ ul {
     padding: 0;
   }
 
+  h3 {
+    font-size: 0.8em;
+  }
+
+  h3::after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    display: inline-block;
+    background: #0aee79;
+    margin: 4px 20px;
+  }
+
   .career ,.about ,.contacts, .project {
     padding: 10%;
   }
@@ -605,7 +618,7 @@ ul {
   .Skill,
   .Experience,
   .Education {
-    margin: 10% 0%;
+    margin: 15% 0%;
   }
 
   .header_icons {
