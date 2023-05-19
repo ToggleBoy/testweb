@@ -42,7 +42,7 @@ const About = () => {
           <div className="intro-para">
             <h4>Bio</h4>
             <p>
-            { ` Meet Radhakrishnan, a vibrant soul from Ranipet, Tamil Nadu. With
+              {` Meet Radhakrishnan, a vibrant soul from Ranipet, Tamil Nadu. With
               a passion for movies, programming, and sports (cricket and
               badminton), he blends his diverse interests into a fusion of
               creativity. Exploring the magic of cinema, he delves into various
