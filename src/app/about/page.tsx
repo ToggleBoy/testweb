@@ -68,7 +68,7 @@ const About = () => {
           </div>
         </div>
         <div>
-          {/* <h3>Timeline</h3> */}
+          {/*<h3>Timeline</h3>*/}
         </div>
       </div>
     </div>
