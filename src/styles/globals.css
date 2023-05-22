@@ -262,6 +262,11 @@ ul {
   padding: 5%;
 }
 
+.testimage {
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
 .about-intro {
   display: flex;
   margin: 5% 0% 10%;

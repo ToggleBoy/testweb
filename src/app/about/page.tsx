@@ -1,4 +1,5 @@
 import { InterestList } from "@/components/about-components/AboutSection";
+import Image from "next/image";
 
 const About = () => {
   const interest: string[] = [
@@ -37,7 +38,7 @@ const About = () => {
         <h2>Profile</h2>
         <div className="about-intro">
           <div className="intro-img">
-            <p>Image</p>
+            <Image src="/rk.png" alt="rk" width={200} height={250} className="testimage"/>
           </div>
           <div className="intro-para">
             <h4>Bio</h4>
