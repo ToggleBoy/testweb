@@ -1,5 +1,11 @@
 import "../styles/globals.css";
 import favico from "../../public/favicon.ico";
+import { Roboto_Flex } from 'next/font/google';
+
+const roboto_flex = Roboto_Flex({
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 export const metadata = {
   title: "Radhakrishnan",
@@ -12,11 +18,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" >
       <head>
         <link rel="shortcut icon" href={favico.src} type="image/x-icon"/>
       </head>
-      <body>
+      <body className={roboto_flex.className}>
         {children}
       </body>
     </html>

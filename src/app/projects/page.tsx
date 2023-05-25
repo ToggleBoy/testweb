@@ -30,9 +30,6 @@ const Projects = () => {
           </div>
         </div>
         <div className="project-right">
-          <div>
-            {/* <img src={Wo_png} alt="projectimage" width={200} height={200} /> */}
-          </div>
           <div className="description">
             <h3>WiggyOmato</h3>
             <p>

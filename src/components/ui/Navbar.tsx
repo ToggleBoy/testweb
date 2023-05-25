@@ -29,21 +29,11 @@ const Home = () => {
         </Link>
       </div>
       <div className="navigation-link">
-        <Link href="/">
-          Home
-        </Link>
-        <Link href="/about">
-          About
-        </Link>
-        <Link href="/career">
-          Career
-        </Link>
-        <Link href="/projects">
-          Projects
-        </Link>
-        <Link href="/contact-me">
-          Contact Me
-        </Link>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/career">Career</Link>
+        <Link href="/projects">Projects</Link>
+        <Link href="/contact-me">Contact Me</Link>
       </div>
       <input
         className="hamburger-navbar"
@@ -57,21 +47,11 @@ const Home = () => {
             <button className="close-button" onClick={closeMobileMenu}>
               X
             </button>
-            <Link href="/">
-              Home
-            </Link>
-            <Link href="/about">
-              About
-            </Link>
-            <Link href="/career">
-              Career
-            </Link>
-            <Link href="/projects">
-              Projects
-            </Link>
-            <Link href="/contact-me">
-              Contact Me
-            </Link>
+            <Link href="/">Home</Link>
+            <Link href="/about">About</Link>
+            <Link href="/career">Career</Link>
+            <Link href="/projects">Projects</Link>
+            <Link href="/contact-me">Contact Me</Link>
           </div>
         </div>
       )}
