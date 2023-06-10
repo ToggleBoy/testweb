@@ -629,7 +629,7 @@ ul {
   .about,
   .contacts,
   .project {
-    padding: 10%;
+    padding: 15% 10% 10%;
   }
 
   .home {
