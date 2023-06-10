@@ -124,10 +124,12 @@ ul {
   .navbar {
     display: flex;
     justify-content: space-between;
+    margin: 0;
   }
 
   .navigation-title {
-    padding: 0;
+    padding-top: 0;
+    padding-left: 10px;
   }
 
   .navigation-link {
