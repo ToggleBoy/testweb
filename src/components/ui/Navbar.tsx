@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <div className="navbar">
-      <div className="naigation-title">
+      <div className="navigation-title">
         <Link href={"/"}>
           <Image
             src="/logo.png"

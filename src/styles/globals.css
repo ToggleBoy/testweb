@@ -59,22 +59,50 @@ footer {
 .navigation-title {
   flex: 1;
   padding-top: 10px;
-  padding-left: 10px;
 }
 
 .navbar {
   display: flex;
-  border-bottom: 1px solid #ffffff80;
+  border-bottom: 1px solid #5e5e5e80;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #121212e0;
+  z-index: 1;
+  margin: 0 10%;
 }
 
 a {
   text-decoration: none;
   color: #f5f5f5;
-  padding: 0% 5%;
+  padding: 0% 7% 0 0;
 }
 
 ul {
   list-style: none;
+}
+
+.navigation-link a {
+  position: relative;
+}
+
+.navigation-link a::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  bottom: -20px;
+  left: 0;
+  background-color: #0aee79; 
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navigation-link a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .navigation-link {
@@ -115,7 +143,7 @@ ul {
     margin-bottom: 5%;
     border: none;
     position: absolute;
-    top: 2.5%;
+    top: 15%;
     right: 5%;
     z-index: 1;
     transform: rotate(90deg);
@@ -143,7 +171,7 @@ ul {
 .homepage-icons a {
   margin: 0% 0%;
   transform: scale(0.85);
-  padding: 0 0 0 3%;
+  padding: 0 3% 0 0.2%;
 }
 
 .home-nav {
@@ -154,15 +182,45 @@ ul {
   width: 100%;
 }
 
+.navlink a {
+  position: relative;
+  white-space: nowrap;
+}
+
+.navlink a::after {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 2px;
+  bottom: -15px;
+  left: 0px;
+  background-color: #0aee79;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navlink a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
 .navtitle {
   flex: 1 1 50%;
   flex-shrink: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navtitle a {
+  padding: 0;
 }
 
 .navlink {
   flex: 1 1 50%;
   display: flex;
-  align-items: center;
+  justify-content: flex-end;
 }
 
 .hamburger {
@@ -206,6 +264,7 @@ ul {
   }
 
   .navtitle {
+    display: block;
     text-align: center;
   }
 
@@ -260,7 +319,7 @@ ul {
   background: #121212;
   color: whitesmoke;
   line-height: 200%;
-  padding: 5%;
+  padding: 10% 5% 5%;
 }
 
 .about-intro {
@@ -305,7 +364,7 @@ ul {
   background: #121212;
   color: whitesmoke;
   line-height: 200%;
-  padding: 5%;
+  padding: 10% 5% 5%;
 }
 
 .career-header {
@@ -469,7 +528,7 @@ ul {
   text-align: center;
   width: auto;
   height: 100%;
-  padding: 5%;
+  padding: 10% 5% 5%;
 }
 
 .contacts-body {
@@ -516,7 +575,7 @@ ul {
   height: auto;
   line-height: 40px;
   text-align: center;
-  padding: 5%;
+  padding: 10% 5% 5%;
 }
 .project-header {
   padding-bottom: 5%;
