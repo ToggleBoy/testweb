@@ -49,7 +49,7 @@ const Home = () => {
               <Link href="/about">About</Link>
               <Link href="/career">Career</Link>
               <Link href="/projects">Projects</Link>
-              <Link href="/contact-me">Contact Me</Link>
+              <Link href="/contact-me">Contact</Link>
             </div>
             <input
               className="hamburger"
@@ -69,7 +69,7 @@ const Home = () => {
                 <Link href="/about">About</Link>
                 <Link href="/career">Career</Link>
                 <Link href="/projects">Projects</Link>
-                <Link href="/contact-me">Contact Me</Link>
+                <Link href="/contact-me">Contact</Link>
               </div>
             </div>
           )}
