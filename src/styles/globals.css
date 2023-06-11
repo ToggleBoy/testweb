@@ -92,7 +92,7 @@ ul {
   position: absolute;
   width: 80%;
   height: 2px;
-  bottom: -20px;
+  bottom: -10px;
   left: 0;
   background-color: #0aee79; 
   transform: scaleX(0);
