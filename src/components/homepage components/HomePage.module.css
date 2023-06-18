@@ -32,6 +32,9 @@
     position: relative;
     left: 10%;
   }
+  .content__container__list {
+    padding-left: 50px !important;
+  }
 }
 
 .content__container:after,
