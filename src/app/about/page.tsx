@@ -41,7 +41,7 @@ const About = () => {
           &nbsp;
           </div>
           <div className="intro-para">
-            <h4>Bio</h4>
+            <h4>More About Me....</h4>
             <p>
               {` Meet Radhakrishnan, a vibrant soul from Ranipet, Tamil Nadu. With
               a passion for movies, programming, and sports (cricket and
