@@ -48,8 +48,6 @@ export const RoleAnimator = () => {
             <li className={styles.content__container__list__item}>Web Developer</li>
             <li className={styles.content__container__list__item}>Software Developer</li>
           </ul>
-          <p className={styles.content__container__textend}>Developer</p>
-
         </div>
       </div>
     </div>
