@@ -171,7 +171,7 @@ ul {
 }
 
 .homepage-icons a {
-  margin: 0% 0%;
+  margin: 2% 0% 0;
   transform: scale(0.85);
   padding: 0 3% 0 0.2%;
 }
@@ -213,6 +213,7 @@ ul {
   flex-shrink: 0;
   display: flex;
   justify-content: flex-start;
+  flex-direction: column;
 }
 
 .navtitle a {
@@ -332,6 +333,17 @@ ul {
 .intro-img {
   flex: 1 1 30%;
   text-align: center;
+  background: #aaaaaa;
+  background: linear-gradient(90deg, #aaaaaa 8%, #bebebe 18%, #aaaaaa 33%);
+  border-radius: 5px;
+  background-size: 200% 100%;
+  animation: 1.5s shine linear infinite;
+  margin-right: 10%;
+}
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
 }
 
 .intro-para {
@@ -650,6 +662,11 @@ ul {
   .about-intro {
     display: flex;
     flex-direction: column;
+  }
+
+  .intro-img {  
+    padding: 30% 0;
+    margin-right: 0;
   }
 
   .intro-para,

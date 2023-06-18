@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { HomePage_Icons } from "@/components/homepage components/HomePageComponents";
+import { HomePage_Icons, RoleAnimator } from "@/components/homepage components/HomePageComponents";
 import { motion, AnimatePresence } from "framer-motion";
 
 const pulldownAnimation = {
@@ -43,6 +43,7 @@ const Home = () => {
                   priority={true}
                 />
               </Link>
+              <RoleAnimator />
             </div>
             <div className="navlink">
               <Link href="/">Home</Link>
