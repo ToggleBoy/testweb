@@ -23,7 +23,14 @@
 
 @media (max-width: 768px) {
   .content__container {
-    padding-left: 8%;
+    padding: 0;
+  }
+  .content__container__list__item {
+    text-align: center;
+  }
+  .content__container__text {
+    position: relative;
+    left: 10%;
   }
 }
 
