@@ -26,7 +26,7 @@
     padding: 0;
   }
   .content__container__list__item {
-    text-align: center;
+    padding-left: 70px;
   }
   .content__container__text {
     position: relative;
@@ -51,6 +51,9 @@
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
+.content__container__textend {
+  position: relative;
+}
 
 .content__container__text {
   display: inline;
@@ -60,7 +63,7 @@
 
 .content__container__list {
   margin-top: 0;
-  padding-left: 70px;
+  padding-left: 80px;
   text-align: left;
   list-style: none;
   -webkit-animation-name: change;
@@ -75,7 +78,6 @@
 .content__container__list__item {
   line-height: 40px;
   margin: 0;
-  white-space: nowrap;
 }
 
 @keyframes opacity {
